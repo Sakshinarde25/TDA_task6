@@ -1,0 +1,107 @@
+Project Overview
+
+This project focuses on building an interactive sales dashboard to analyze sales trends, customer behavior, and product performance.
+Using Python, Pandas, Seaborn, Matplotlib, and Plotly, the dashboard presents both static and interactive visualizations to support data-driven business decisions.
+
+The project is designed for students and beginners, following a complete data analysis pipeline from loading data to generating insights.
+
+🎯 Objectives
+
+Analyze sales trends over time
+
+Compare sales performance across product categories
+
+Identify relationships between sales and quantity
+
+Create interactive and professional visualizations
+
+Present insights in a clear, business-friendly way
+
+🛠️ Technologies Used
+
+Python 3
+
+Pandas – Data manipulation
+
+Matplotlib – Basic visualizations
+
+Seaborn – Statistical plots
+
+Plotly – Interactive charts
+
+📁 Project Structure
+interactive-sales-dashboard/
+│
+├── dashboard.py
+├── dashboard.ipynb
+├── sales_data.csv
+├── requirements.txt
+│
+├── visualizations/
+│   ├── sales_trend.png
+│   ├── category_boxplot.png
+│   ├── correlation_heatmap.png
+│
+├── dashboard_demo.gif
+└── README.md
+
+📊 Dataset Description
+
+File: sales_data.csv
+
+Column Name	Description
+Order_Date	Date of the order
+Category	Product category
+Product	Product name
+Sales	Sales amount
+Quantity	Units sold
+🔍 Analysis Performed
+
+Data loading and validation
+
+Date conversion and cleaning
+
+Monthly sales trend analysis
+
+Category-wise sales comparison
+
+Correlation analysis between sales and quantity
+
+📈 Visualizations Created
+
+Line Chart – Monthly Sales Trend
+
+Box Plot – Sales distribution by category
+
+Violin Plot – Sales spread across categories
+
+Heatmap – Correlation between numeric variables
+
+Interactive Bar Chart – Category-wise sales (Plotly)
+
+▶️ How to Run the Project
+Step 1: Install dependencies
+pip install -r requirements.txt
+
+Step 2: Run the dashboard
+python dashboard.py
+
+
+✔ Charts will appear on screen
+✔ Saved images will be stored in the visualizations/ folder
+✔ Interactive Plotly chart opens in browser
+
+📌 Key Insights
+
+Sales show noticeable variation across months
+
+Electronics category contributes the highest revenue
+
+Strong positive relationship between quantity sold and total sales
+
+Interactive charts make trend exploration easier
+
+✅ Conclusion
+
+This project demonstrates how data analysis and visualization can convert raw sales data into meaningful insights.
+The dashboard can be easily extended with additional KPIs, filters, or real-time data for advanced business use cases.
